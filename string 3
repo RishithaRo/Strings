@@ -1,0 +1,13 @@
+# Lower() method
+# Note: Every string method in Python does not change the original string instead returns a new string with the changed attributes. 
+a="KaMakshI RIShithA"
+print(a.lower())
+print(a)
+print(id(a.lower()))
+print(id(a))
+'''----------------------------OUTPUT-----------------------------------
+kamakshi rishitha
+KaMakshI RIShithA
+2506013261744
+2506013257840
+'''
