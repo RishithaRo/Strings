@@ -1,0 +1,9 @@
+# title() method
+# It converts the first character of every word in the string to upper case and following letters of the word to lower case.
+a="PythON PROgrammINg"
+print("The actual string:",a)
+print("The converted string:",a.title())
+'''---------------------OUTPUT-------------------------
+The actual string: PythON PROgrammINg
+The converted string: Python Programming
+'''
