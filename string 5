@@ -1,0 +1,9 @@
+# upper() method
+# Converts all the letters of the string to upper case and returns it
+a="PythON PROgrammINg"
+print("The actual string:",a)
+print("The converted string:",a.upper())
+'''------------------------OUTPUT----------------------------
+The actual string: PythON PROgrammINg
+The converted string: PYTHON PROGRAMMING
+'''
