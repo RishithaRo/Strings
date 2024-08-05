@@ -1,0 +1,39 @@
+# title() method
+# Note: Any "non-alphabetic character" is considered as the start of a new word in the title function, for example it will turn “do’s” to “Do’S”.
+# This is one of the limitations of title() method.
+a="do's"
+print("The actual string:",a)
+print("The converted string:",a.title())
+print()
+b="hii@rishi"
+print("The actual string:",b)
+print("The converted string:",b.title())
+print()
+c="monty python flyng circus"
+print("The actual string:",c)
+print("The converted string:",c.title())
+print()
+d="number 1program"
+print("The actual string:",d)
+print("The converted string:",d.title())
+print()
+e="`Hello dear~welcome ^to 6this *world"
+print("The actual string:",e)
+print("The converted string:",e.title())
+# Any "non-alphabetic character" is considered as the start of a new word in the title function, for example it will turn “do’s” to “Do’S”.
+'''-----------------------------OUTPUT-----------------------------
+The actual string: do's
+The converted string: Do'S
+
+The actual string: hii@rishi
+The converted string: Hii@Rishi
+
+The actual string: monty python flyng circus
+The converted string: Monty Python Flyng Circus
+
+The actual string: number 1program
+The converted string: Number 1Program
+
+The actual string: `Hello dear~welcome ^to 6this *world
+The converted string: `Hello Dear~Welcome ^To 6This *World
+'''
