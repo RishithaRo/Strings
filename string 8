@@ -1,0 +1,23 @@
+# swapcase() method
+# It converts all the lower case letters of the string to upper case and all the upper case letters of a string to lower case and returns it.
+a="PYTHON PROGRAMMING"
+print("The actual string is:",a)
+print("The converted string is:",a.swapcase())
+print()
+b="HORlickS AND boosT"
+print("The actual string is:",b)
+print("The converted string is:",b.swapcase())
+print()
+c="success begins...be ready...!!!"
+print("The actual string is:",c)
+print("The converted string is:",c.swapcase())
+'''-----------------------OUTPUT-------------------------------------
+The actual string is: PYTHON PROGRAMMING
+The converted string is: python programming
+
+The actual string is: HORlickS AND boosT
+The converted string is: horLICKs and BOOSt
+
+The actual string is: success begins...be ready...!!!
+The converted string is: SUCCESS BEGINS...BE READY...!!!
+'''
