@@ -1,0 +1,10 @@
+# STRING METHODS IMPORTANT NOTE
+# Note: Every string method in Python does not change the original string instead returns a new string with the changed attributes.
+a="BroTheR anD SISteR'S RelatiONSHip"
+a.lower()
+print(a) # output- BroTheR anD SISteR'S RelatiONSHip
+# Even we applied method, The string does not change.
+# It is due to Every string method in Python does not change the original string instead "returns" a new string with the changed attributes.
+'''----------------------------OUTPUT-------------------------------
+BroTheR anD SISteR'S RelatiONSHip
+'''
