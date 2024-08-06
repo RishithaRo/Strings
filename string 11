@@ -1,0 +1,16 @@
+# capitalize() method
+# It converts only the "first character of entire string" to uppercase and all the following characters to lower case.
+# If the string starts with digits or any special characters, then no character is converted to uppercase
+# All the characters followed by the digits or special character are converted to lowercase.
+a="1 artiFICIal inteLLIgenCE"
+print("The original string:",a)
+print("The converted string:",a.capitalize())
+b="+pYTHON FULLSTACK"
+print("The original string:",b)
+print("The converted string:",b.capitalize())
+'''-------------------------------OUTPUT----------------------------------
+The original string: 1 artiFICIal inteLLIgenCE
+The converted string: 1 artificial intelligence
+The original string: +pYTHON FULLSTACK
+The converted string: +python fullstack
+'''
