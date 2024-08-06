@@ -1,0 +1,23 @@
+# capitalize() , title() methods comparison
+# Both capitalize() and title() methods does not accept any parameters
+# title() method
+# It converts the "first character of every word in the string" to upper case and following letters of the word to lower case.
+# capitalize() method
+# It converts only the "first character of entire string" to uppercase and all the following characters to lower case.
+a="THIS Is rishI"
+print("title() method")
+print("The actual string:",a)
+print("The converted string:",a.title())
+print()
+print("capitalize() method")
+print("The actual string:",a)
+print("The converted string:",a.capitalize())
+'''-------------------------------OUTPUT-----------------------------
+title() method
+The actual string: THIS Is rishI
+The converted string: This Is Rishi
+
+capitalize() method
+The actual string: THIS Is rishI
+The converted string: This is rishi
+'''
